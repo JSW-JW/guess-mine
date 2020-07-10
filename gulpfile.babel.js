@@ -21,7 +21,7 @@ const paths = {
   },
   js2: {
     src: "assets/js/3d.js",
-    dest: "src/static/js2",
+    dest: "src/static/js",
     watch: "assets/js/3d.js",
   },
 };
@@ -71,6 +71,7 @@ const js2 = () =>
 
 const watchFiles = () => gulp.watch(paths.styles.watch, styles);
 gulp.watch(paths.js.watch, js);
+gulp.watch(paths.js2.watch, js);
 
 const dev = gulp.series(clean, styles, js, js2, watchFiles);
 
