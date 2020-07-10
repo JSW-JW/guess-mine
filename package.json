@@ -99,6 +99,7 @@
     "source-map": "^0.5.7",
     "source-map-support": "^0.4.18",
     "source-map-url": "^0.4.0",
+    "three": "^0.118.3",
     "three.js": "^0.77.1",
     "threejs-full-es6": "^5.1.0"
   },
