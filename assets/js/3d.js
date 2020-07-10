@@ -47,14 +47,17 @@ scene.add(light3);
 var loader = new THREE.TextureLoader();
 
 var mesh;
-loader.load("assets/photos/PS17100100497.jpg", function (texture) {
-  mesh = new THREE.Mesh(
-    new THREE.BoxGeometry(3, 3, 3),
-    new THREE.MeshStandardMaterial({ map: texture })
-  );
-  mesh.name = "Box1";
-  scene.add(mesh);
-});
+loader.load(
+  "file:///C://Documents/guess-mine/assets/photos/PS17100100497.jpg",
+  function (texture) {
+    mesh = new THREE.Mesh(
+      new THREE.BoxGeometry(3, 3, 3),
+      new THREE.MeshStandardMaterial({ map: texture })
+    );
+    mesh.name = "Box1";
+    scene.add(mesh);
+  }
+);
 
 // 카메라의 Z좌표를 물체에서 7 정도 떨어진 지점에 위치합니다.
 camera.position.z = 7;

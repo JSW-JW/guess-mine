@@ -54,7 +54,7 @@ require("./sockets");
 require("./chat");
 
 require("./paint");
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZha2VfNDA3ZjE2MTMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQSIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBcIi4vbG9naW5cIjtcclxuaW1wb3J0IFwiLi9ub3RpZmljYXRpb25zXCI7XHJcbmltcG9ydCBcIi4vc29ja2V0c1wiO1xyXG5pbXBvcnQgXCIuL2NoYXRcIjtcclxuaW1wb3J0IFwiLi9wYWludFwiO1xyXG4iXX0=
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImZha2VfY2VlNjRlMWMuanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQSIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBcIi4vbG9naW5cIjtcclxuaW1wb3J0IFwiLi9ub3RpZmljYXRpb25zXCI7XHJcbmltcG9ydCBcIi4vc29ja2V0c1wiO1xyXG5pbXBvcnQgXCIuL2NoYXRcIjtcclxuaW1wb3J0IFwiLi9wYWludFwiO1xyXG4iXX0=
 },{"./chat":1,"./login":3,"./notifications":4,"./paint":5,"./sockets":7}],3:[function(require,module,exports){
 "use strict";
 
