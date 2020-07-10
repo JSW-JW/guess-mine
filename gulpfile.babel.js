@@ -19,6 +19,11 @@ const paths = {
     dest: "src/static/js",
     watch: "assets/js/**/*.js",
   },
+  js2: {
+    src: "assets/js/3d.js",
+    dest: "src/static/js2",
+    watch: "assets/js/3d.js",
+  },
 };
 
 const clean = () => del(["src/static"]);
@@ -50,11 +55,25 @@ const js = () =>
     )
     .pipe(gulp.dest(paths.js.dest));
 
+const js2 = () =>
+  gulp
+    .src(paths.js2.src)
+    .pipe(
+      bro({
+        transform: [
+          babel.configure({
+            presets: ["@babel/preset-env"],
+          }),
+        ],
+      })
+    )
+    .pipe(gulp.dest(paths.js2.dest));
+
 const watchFiles = () => gulp.watch(paths.styles.watch, styles);
 gulp.watch(paths.js.watch, js);
 
-const dev = gulp.series(clean, styles, js, watchFiles);
+const dev = gulp.series(clean, styles, js, js2, watchFiles);
 
-export const build = gulp.series(clean, styles, js);
+export const build = gulp.series(clean, styles, js, js2);
 
 export default dev;
