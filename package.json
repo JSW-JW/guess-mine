@@ -95,7 +95,7 @@
     "slash": "^1.0.0",
     "snapdragon-node": "^2.1.1",
     "snapdragon-util": "^3.0.1",
-    "socket.io": "^2.3.0",
+    "socket.io": "^2.4.0",
     "source-map": "^0.5.7",
     "source-map-support": "^0.4.18",
     "source-map-url": "^0.4.0"
