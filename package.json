@@ -80,7 +80,7 @@
     "preserve": "^0.2.0",
     "private": "^0.1.8",
     "process-nextick-args": "^2.0.1",
-    "pug": "^3.0.0",
+    "pug": "^3.0.1",
     "randomatic": "^3.1.1",
     "regenerator-runtime": "^0.11.1",
     "regex-cache": "^0.4.4",
